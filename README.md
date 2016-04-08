@@ -25,7 +25,7 @@ and you're ready to go!
 
 `container`: The container for the sidebar, this is the wrapper element for the widgets assigned to the sidebar. It should be a block-level HTML element, so the argument accepts either `<div>`, `<aside>` or `<section>`. By default it's set to `<section>` if the `container` parameter is left empty.
 
-**Full examples in can be found in the example folder.**
+**Full examples can be found in the example folder.**
 
 ## Displaying the Sidebar in your Theme
     <?php if ( is_active_sidebar( 'book-sidebar-1' )  ) : ?>
